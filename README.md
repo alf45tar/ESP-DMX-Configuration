@@ -88,8 +88,6 @@ Defines how DMX data is distributed:
 - **Node Name**: Custom device identifier.  
 - **RDM Support**: Enable/disable Remote Device Management protocol.  
 
----
-
 ## 5. Fallback Logic
 To guarantee device accessibility:  
 1. On startup, the ESP-DMX tries to connect in **Station Mode** using the last known SSID and password.  
