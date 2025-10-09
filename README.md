@@ -3,6 +3,26 @@
 
 The **ESP-DMX Configuration Utility** provides a graphical interface to remotely configure WiFi and DMX protocol parameters on ESP-DMX devices. Configuration is achieved by connecting to a target device, adjusting parameters, and uploading them as a configuration packet.  
 
+## Downloads & Installation
+
+The **ESP-DMX Configuration Utility** is available for all major desktop platforms:
+
+### 🐧 Linux
+- **AppImage** – Portable, no installation required.  
+- **.deb Package** – For Debian/Ubuntu-based distributions (installs via the system package manager).
+
+### 🪟 Windows
+- **Standalone Executable (.exe)** – Download and run directly.  
+- **Installer** – Optional guided installation that creates Start Menu shortcuts.
+
+### 🍎 macOS
+- Two separate application builds are provided:  
+  - **Intel (x64)**  
+  - **Apple Silicon (ARM)**  
+- Distributed as standalone `.app` bundles — **no installation required**. Simply download, unzip, and run.
+
+> ⚡ **Note:** The utility does not require internet access for normal operation. Some systems may prompt for permission to run applications from unidentified developers — this can be allowed through **System Settings → Privacy & Security**.
+
 ## Device Management
 **Tab: Device**
 
@@ -37,7 +57,7 @@ When using the **Art-Net protocol**, additional protocol-specific controls are a
 - **Clear Output**  
   Resets Art-Net output data.  
 
-## 3. WiFi & IP Configuration
+## WiFi & IP Configuration
 **Tab: Network**
 
 ![Network](Screenshot%20Network.png)
@@ -63,7 +83,7 @@ Configure addressing for either Station or AP mode:
 **Important:**  
 When WiFi credentials are updated and uploaded, the ESP-DMX device **must restart** to apply new settings.  
 
-## 4. Protocol Configuration
+## Protocol Configuration
 **Tab: Protocol**
 
 ![Protocol](Screenshot%20Protocol.png)
@@ -88,13 +108,13 @@ Defines how DMX data is distributed:
 - **Node Name**: Custom device identifier.  
 - **RDM Support**: Enable/disable Remote Device Management protocol.  
 
-## 5. Fallback Logic
+## Fallback Logic
 To guarantee device accessibility:  
 1. On startup, the ESP-DMX tries to connect in **Station Mode** using the last known SSID and password.  
 2. If unsuccessful, it automatically switches to **Access Point Mode** with default credentials.  
 3. From AP mode, a computer can connect and reconfigure WiFi or DMX settings.  
 
-## 6. Typical Workflow
+## Typical Workflow
 1. **Discover Device** or enter its IP manually.  
 2. Connect and verify **Connected** status.  
 3. Go to **Network** → configure WiFi and IP settings.  
