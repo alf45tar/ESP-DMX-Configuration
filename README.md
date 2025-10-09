@@ -49,20 +49,29 @@ The utility is available in multiple formats to support different architectures 
 This section allows discovery and connection to ESP-DMX devices on your network.
 
 - **Target IP Address**  
-  Enter the IP address of the device or a broadcast address (e.g., `10.255.255.255`) to search.  
+  Enter the IP address of the device or use a broadcast address (e.g., `10.255.255.255`) to search.
+
+- **🔄 Refresh**  
+  Scans the network for available ESP-DMX devices.  
+  Once the scan completes, any detected devices are listed in the **device dropdown menu**, allowing quick selection without manually entering IP addresses.
+
+- **Device Dropdown List**  
+  Displays all discovered devices after a refresh scan. Selecting a device from the list automatically fills the Target IP field.
 
 - **Discover Device**  
-  Initiates a discovery request to locate available ESP-DMX units.  
+  Connects to the **selected Target IP** and **downloads the current configuration** from the device. This allows you to view and modify existing network and protocol settings.
 
 - **Connection Status**  
-  Displays whether the utility is successfully connected to a device.  
+  Displays whether the utility is successfully connected to a device.
 
-Once connected, the device is ready to accept configuration uploads.  
+Once connected, the device is ready to accept configuration uploads.
 
 ### Configuration Management
 
 - **Upload Configuration**  
-  Sends current settings (WiFi + DMX) to the connected device.  
+  Sends current settings (WiFi + DMX) to the connected device.
+
+> 🔁 **Note:** After uploading new settings, the **device must be restarted** for changes to take effect.
 
 ### Art-Net Specific Commands
 When using the **Art-Net protocol**, additional protocol-specific controls are available:
@@ -96,8 +105,7 @@ Configure addressing for either Station or AP mode:
   - **AP Gateway**  
   - **AP Subnet Mask**  
 
-**Important:**  
-When WiFi credentials are updated and uploaded, the ESP-DMX device **must restart** to apply new settings.  
+> 🔒 **Note:** For security reasons, the **WiFi password is never transmitted back** from the device to the configuration utility. It is stored securely on the device and only sent during configuration uploads.
 
 ## Protocol Configuration
 **Tab: Protocol**
@@ -131,9 +139,10 @@ To guarantee device accessibility:
 3. From AP mode, a computer can connect and reconfigure WiFi or DMX settings.  
 
 ## Typical Workflow
-1. **Discover Device** or enter its IP manually.  
-2. Connect and verify **Connected** status.  
-3. Go to **Network** → configure WiFi and IP settings.  
-4. Go to **Protocol** → set DMX protocol, universe, and network transport.  
-5. Return to **Device** → upload configuration.  
-6. If WiFi was changed, device restarts and reconnects using new settings.  
+1. **🔄 Refresh** to scan for devices.  
+2. Select a device from the dropdown.  
+3. Click **Discover Device** to connect and download its configuration.
+4. Go to **Network** → configure WiFi and IP settings.  
+5. Go to **Protocol** → set DMX protocol, universe, and network transport.  
+6. Return to **Device** → **Upload Configuration**.  
+7. 🔁 **Restart the device** to apply changes.
