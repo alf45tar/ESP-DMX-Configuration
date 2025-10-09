@@ -16,12 +16,28 @@ The **ESP-DMX Configuration Utility** is available for all major desktop platfor
 - **Installer** – Optional guided installation that creates Start Menu shortcuts.
 
 ### 🍎 macOS
-- Two separate application builds are provided:  
-  - **Intel (x64)**  
-  - **Apple Silicon (ARM)**  
-- Distributed as standalone `.app` bundles — **no installation required**. Simply download, unzip, and run.
 
-> ⚡ **Note:** The utility does not require internet access for normal operation. Some systems may prompt for permission to run applications from unidentified developers — this can be allowed through **System Settings → Privacy & Security**.
+The utility is available in multiple formats to support different architectures and user preferences:
+
+- **Universal Build (Recommended)**  
+  - Runs on both **Intel (x64)** and **Apple Silicon (ARM)** Macs.  
+  - Available as:  
+    - `.dmg` – Drag-and-drop installation  
+    - `.zip` – Standalone `.app` bundle (no installation required)
+
+- **Apple Silicon (ARM)**  
+  - Optimized for Apple M-series processors.  
+  - Available as:  
+    - `.dmg` – Drag-and-drop installation  
+    - `.zip` – Standalone `.app` bundle
+
+- **Intel (x64)**  
+  - Optimized for Intel-based Macs.  
+  - Available as:  
+    - `.dmg` – Drag-and-drop installation  
+    - `.zip` – Standalone `.app` bundle
+
+> 📝 **Tip:** If macOS displays a security warning for unidentified developers, you can allow the app to run via **System Settings → Privacy & Security**.
 
 ## Device Management
 **Tab: Device**
