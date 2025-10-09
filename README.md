@@ -19,7 +19,7 @@ The **ESP-DMX Configuration Utility** is available for all major desktop platfor
 
 The utility is available in multiple formats to support different architectures and user preferences:
 
-- **Universal Build (Recommended)**  
+- **Universal Build**  
   - Runs on both **Intel (x64)** and **Apple Silicon (ARM)** Macs.  
   - Available as:  
     - `.dmg` – Drag-and-drop installation  
