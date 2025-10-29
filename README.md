@@ -24,20 +24,20 @@ The utility is available in multiple formats to support different architectures 
 - **Universal Build**  
   - Runs on both **Intel (x64)** and **Apple Silicon (ARM)** Macs.  
   - Available as:  
-    - `.dmg` – Drag-and-drop installation  
-    - `.zip` – Standalone `.app` bundle (no installation required)
+    - [`.dmg`](https://drive.google.com/file/d/1ivzE5xhwTXuGQ2BuvEmRr1oJ2q1Yx4Nh) – Drag-and-drop installation  
+    - [`.zip`](https://drive.google.com/file/d/1nTKFx6u3X8_1o1LWmwP-LR-38j_PvWir) – Standalone `.app` bundle (no installation required)
 
 - **Apple Silicon (ARM)**  
   - Optimized for Apple M-series processors.  
   - Available as:  
-    - `.dmg` – Drag-and-drop installation  
-    - `.zip` – Standalone `.app` bundle
+    - [`.dmg`](https://drive.google.com/file/d/1YTdBseTwMUSMaQ9vBbzQuR418DSvBkld) – Drag-and-drop installation  
+    - [`.zip`](https://drive.google.com/file/d/1PXuGUQA6X57FmAKS_UYuf3AaI_8cNkmK) – Standalone `.app` bundle
 
 - **Intel (x64)**  
   - Optimized for Intel-based Macs.  
   - Available as:  
-    - `.dmg` – Drag-and-drop installation  
-    - `.zip` – Standalone `.app` bundle
+    - [`.dmg`](https://drive.google.com/file/d/1-hpVshGSd4OjZ37CIMtpN7-B9MPeWpgs) – Drag-and-drop installation  
+    - [`.zip`](https://drive.google.com/file/d/1E9xrZBeBNcteaM9SaVCU5Tx2_qjk2NFg) – Standalone `.app` bundle
 
 > 📝 **Tip:** If macOS displays a security warning for unidentified developers, you can allow the app to run via **System Settings → Privacy & Security**.
 
