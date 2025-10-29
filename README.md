@@ -10,12 +10,12 @@ The **ESP-DMX Configuration Utility** provides a graphical interface to remotely
 The **ESP-DMX Configuration Utility** is available for all major desktop platforms:
 
 ### 🐧 Linux
-- **AppImage** – Portable, no installation required.  
-- **.deb Package** – For Debian/Ubuntu-based distributions (installs via the system package manager).
+- [**AppImage**](https://drive.google.com/file/d/1laCK71xpP2PaowVE3RJ9rJOASCd-aTj0) – Portable, no installation required.  
+- [**.deb Package**](https://drive.google.com/file/d/1YSVIVv0ppRMB1UoA4wDpASjeQoDQpyoh) – For Debian/Ubuntu-based distributions (installs via the system package manager).
 
 ### 🪟 Windows
-- **Standalone Executable (.exe)** – Download and run directly.  
-- **Installer** – Optional guided installation that creates Start Menu shortcuts.
+- [**Standalone Executable (.exe)**](https://drive.google.com/file/d/1Fqeyd0FMuJSGenbuPMxYicID-U2GnXJc) – Download and run directly.  
+- [**Installer**](https://drive.google.com/file/d/1MbOHSAWno61DV-KrAqegrOIAtqYON2um) – Optional guided installation that creates Start Menu shortcuts.
 
 ### 🍎 macOS
 
